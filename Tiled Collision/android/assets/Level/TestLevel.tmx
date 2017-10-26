@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-up" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="3">
+ <tileset firstgid="1" source="TestTileSet.tsx"/>
+ <layer name="Tile Layer" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy90rtOAkEUxvGtTIReH0BKMeEB1OdBUKgwq9gpasdNYuMNpcErNlwUbQSVp/I/yZlkcsIQoLD4ZXb3fHv2zO52giA4RucfnKrznKyhrDvIIIsjT4/UmGsFT3YfeRyMqZ1MmPPQOU7OuMeCs+q5QpWZdn+7E+bzCafI+Jjvsud5v0lnngV1n6ltyR7S2J7j2bO8b/PfLiKCqKxFlFBGBVWcoYZzh5tzey5hGTEkcIFLXOEaN6jjFndoSM3NWSazIv0Sool7POART3jGC1p4lZrN6YzbbwNtyXXRwxve0ccHPqVmczpj+5lem/jCAEN84we/GMn5UNiczujvsYr4nNawrub7Awk0saA=
+  </data>
+ </layer>
+ <objectgroup name="Collision Layer">
+  <object id="1" name="Ground" x="0" y="448">
+   <polyline points="0,0 512,0 512,-192 640,-192 640,32 0,32 0,0"/>
+  </object>
+  <object id="2" name="Spike Ball" x="96" y="224">
+   <polyline points="0,0 32,0 32,32 0,32 0,0"/>
+  </object>
+ </objectgroup>
+</map>

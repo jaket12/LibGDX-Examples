@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="260" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="KnightMan" tilewidth="32" tileheight="32" spacing="1" tilecount="200" columns="20">
+  <image source="KnightMan.png" trans="008000" width="659" height="329"/>
+  <tile id="0">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Attribute0" value="5"/>
+    <property name="Attribute1" value="6"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="4"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="Attribute0" value="6"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="Animation~100~61,1,7`99,1,7`100,1,7"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="AnimationTouch~60~81,1,15,16`181,1,15`182,1,15`183,1,15`184,1,15`185,1,15`186,1,15`187,1,15`188,1,15"/>
+    <property name="Attribute2" value="15"/>
+    <property name="Attribute3" value="16"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="Animation~100~61,1,10`100,1,10`99,1,10"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="Attribute0" value="1"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="4"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="4"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="Attribute0" value="1"/>
+    <property name="Attribute1" value="4"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="Attribute0" value="Animation~200~180,0`125,0`139,0`125,0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="201" name="MetaTile" tilewidth="32" tileheight="32" spacing="2" tilecount="48" columns="8">
+  <image source="MetaTile.png" trans="008000" width="270" height="202"/>
+  <tile id="0">
+   <properties>
+    <property name="Attribute0" value="RoomTraverseTop"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Attribute0" value="RoomTraverseBottom"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Attribute0" value="RoomTraverseLeft"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Attribute0" value="RoomTraverseRight"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Attribute0" value="RoomEdgeTop"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Attribute0" value="RoomEdgeBottom"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Attribute0" value="RoomEdgeLeft"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Attribute0" value="RoomEdgeRight"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Attribute0" value="RoomPitTop"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Attribute0" value="RoomPitBottom"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Attribute0" value="RoomPitLeft"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="Attribute0" value="RoomPitRight"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="Attribute0" value="TeleTile"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Attribute0" value="StartTile"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Attribute0" value="CheckPoint~139~30~18~250"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Attribute0" value="CheckPoint~220~45~18~200"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="Attribute0" value="CheckPoint~220~60~18~200"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Attribute0" value="CheckPoint~196~45~18~200"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="Attribute0" value="CutScene~Boss"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="Attribute0" value="CutScene~SecretBoss"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="Attribute0" value="RoomTraverseLadderUp"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Attribute0" value="RoomTraverseLadderDown"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="260" height="100">
+  <data encoding="base64" compression="gzip">
+   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
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="260" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3d8U4TQRDA4Xv/NwNF+q+i76JEN1Y82gPm9mY635dsTAzp6ezmpyVZ+rAsy4NlWdav9bgALMtp0QPgNz0ABj0ABj0ABj3g6O9nX1vMowdk3v/T0X+AZvSAzPuvB3PpAZn3Xw/m0gMy778ezKUHZN5/PZhLD8i8/3owlx6Qef/1YC49IPP+68FcekDm/deDufSAzPuvB3PpAZn3Xw/m0gMy778ezKUHZN5/PZhLD3je/y8r6/6V349e9xeepQdz6QHP+792z/juld+/tE4XXu+1dXfhWXowlx4Quf/R50kP5tID9IBBD9ADBj1ADxj0AD1g0AP0gEEP0AMGPUAPGPQAPWDQA/SAQQ/QAwY9IGL/n/78qge16QH+f8CgB0TdWR73kx+X6/eYty49mEsP4r31vu8trHFf+fy+86V7zNb8taWtehCv8zw7n6c93ivNfu/Vef/20nmenc+THrCm8zw7nyc9YE3neXY+T3rAms7z7Hye9IA1nefZ+Tx9Xv7/u38Pfr2P0INjdJ5n5/OkB6zpPM/O50kPWNN5np3Pkx6wpvM8O58n309kTed5dj5PesCazvPsfJ70gDWd59n5PN1SD6LvUnV2ft93xucjZ1qnBH+G6BVxbzvDeksP/AyLOC/vAGtrHkffOa5y3/laD75ueK3z1+xMW/Pa873MLb1fcIbjmGVeerDtmc5wHLPMSw+2PdMZjmOWeenBtmc6w3HMMi892PZMZziOWea1Zw/W7hv8CH69j9CDY5hlXnpw/WtGD54ufN234OfeMj3ISw+uf43/H8Qyy7z04PrX6EEss8zL9xO3PdMZjmOWeenBtmc6w3HMMi892PbM6DtgnelBXnqw7ZkfvTv18rM7O4u876wHsY6+c+y+cz+jrxH3nbvPkrn0IJ5ZUpUexDNLqtKDeGZJVXoQzyypSg/imSVV6UE8s6QqPYhnllSlB/HMkqr0IJ5ZUpUexDNLqtKDeGZJVXoQzyyp6tp95/d+lmVn770v7n4jR9vr852tt98Xd7+Ro+3xfiH650BWcsTPwIQoehBLD6hMD2LpAZXpQSw9oDI9iKUHVKYHsfSAyvQglh5QmR7E0gMq04NYekBle/XgU+DrVaIHVKYHsfSAyva63+j9Qgw9YCY9iKUHVBb1+c7W3xU5Tz1gps7/lgP/0gNg0ANg0ANg8P1Ey7LO10+TCr3mQJYBAA==
+  </data>
+ </layer>
+</map>

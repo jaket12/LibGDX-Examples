@@ -1,0 +1,12 @@
+//Level 1 is ~ Knight Man
+//Enemies
+//(Entity Type)~(Switch case ID)~(AI Type)~(Horizontal Face)~(Vertical Face)~(Spawn Pixel X)~(Spawn Pixel Y)~(Respawnable)~(Inertia X)~(Inertia Y)~(Custom String Text)
+Enemy~1~0~Left~None~160~1856~True~0~0~NoText
+//Item
+//(Entity Type)~(Switch case ID)~(Location X)~(Location Y)~(Respawnable)~(Destroy Timer)
+Item~1~512~1824~True~10000
+//Object
+//(Entity Type)~(Switch case ID)~(AI Type)~(Horizontal Face)~(Vertical Face)~(Spawn Pixel X)~(Spawn Pixel Y)~(Respawnable)~(Inertia X)~(Inertia Y)~(Custom String Text)
+Object~1~0~Left~None~128~1800~True~0~0~NoText
+//Bullet
+//We don't spawn these...

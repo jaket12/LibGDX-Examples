@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="left-up" width="20" height="15" tilewidth="32" tileheight="32" nextobjectid="22">
+ <tileset firstgid="1" source="TestTileSet.tsx"/>
+ <layer name="Tile Layer" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyt0b1OAkEYheGtSIAeLgBKNNkLAK5IsCQKnSB0gkBoUEFp+BG0QX7URhbwqnhJvkkmEzbZLFs8md2dMyffZO8ty/oKQE3WuxN7Nx47csjjGuUAZrpFESXje8HD2Yr2XD1zjpCPM27399LldvbKpcvPfEHcMQhhRBCV9QF1NPCIJlpoo6Opazm9L4Y4krDRxROe8YIe+njFGwayp+eUYyYhfbYYYoQxJnjHFDN84FP2VM7M6H0ZzCW3wBIrrPGNH/zKnsqZGdV37MriDxs42GKHPf7l3REqZ2bM/5HChU+XSBvzHQCC/rQS
+  </data>
+ </layer>
+ <objectgroup name="Collision Layer">
+  <object id="1" name="Ground" x="0" y="448">
+   <polyline points="0,0 512,0 512,-192 640,-192 640,32 0,32 0,0"/>
+  </object>
+  <object id="17" x="288" y="128" width="32" height="32"/>
+  <object id="18" x="256" y="160" width="32" height="32"/>
+  <object id="19" x="288" y="192" width="32" height="32"/>
+  <object id="20" x="224" y="192" width="32" height="32"/>
+  <object id="21" x="192" y="224" width="32" height="32"/>
+ </objectgroup>
+</map>
